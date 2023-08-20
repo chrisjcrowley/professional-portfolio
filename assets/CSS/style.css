@@ -2,3 +2,45 @@
 * {
   border: solid 1px red;
 }
+
+.root {
+  --dark: rgb(8, 40, 106);
+  --light: rgb(229, 229, 229);
+}
+
+/* global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* section styles */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 2%;
+  background-color: rgb(8, 40, 106);
+  color: rgb(229, 229, 229);
+}
+
+.header nav {
+  display: flex;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.header nav ul li {
+  margin-right: 25px;
+}
+
+a {
+  color: rgb(229, 229, 229);
+  text-decoration: none;
+}
